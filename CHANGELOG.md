@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.1...v1.0.2) (2025-02-21)
+
+
+### Bug Fixes
+
+* import statement ([290faf3](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/290faf34e7690165aceb29f23082c67d51090645))
+
 ## [1.0.1](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.0...v1.0.1) (2025-02-21)
 
 
