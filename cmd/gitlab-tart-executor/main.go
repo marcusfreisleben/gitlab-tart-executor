@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/cirruslabs/gitlab-tart-executor/internal/commands"
+	"github.com/marcusfreisleben/gitlab-tart-executor/internal/commands"
 	"log"
 	"os"
 	"os/signal"
