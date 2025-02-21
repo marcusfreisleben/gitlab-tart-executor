@@ -1,7 +1,7 @@
 package timezone_test
 
 import (
-	"github.com/cirruslabs/gitlab-tart-executor/internal/timezone"
+	"github.com/marcusfreisleben/gitlab-tart-executor/internal/timezone"
 	"github.com/stretchr/testify/require"
 	"strings"
 	"testing"

@@ -1,4 +1,4 @@
-module github.com/cirruslabs/gitlab-tart-executor
+module github.com/marcusfreisleben/gitlab-tart-executor
 
 go 1.19
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/cirruslabs/gitlab-tart-executor/internal/gitlab"
-	"github.com/cirruslabs/gitlab-tart-executor/internal/tart"
+	"github.com/marcusfreisleben/gitlab-tart-executor/internal/gitlab"
+	"github.com/marcusfreisleben/gitlab-tart-executor/internal/tart"
 	"github.com/spf13/cobra"
 	"os"
 )

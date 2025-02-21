@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/avast/retry-go/v4"
-	"github.com/cirruslabs/gitlab-tart-executor/internal/gitlab"
+	"github.com/marcusfreisleben/gitlab-tart-executor/internal/gitlab"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -9,8 +9,8 @@ before:
 builds:
   - main: cmd/gitlab-tart-executor/main.go
     ldflags: >
-      -X github.com/cirruslabs/gitlab-tart-executor/internal/version.Version={{.Version}}
-      -X github.com/cirruslabs/gitlab-tart-executor/internal/version.Commit={{.ShortCommit}}
+      -X github.com/marcusfreisleben/gitlab-tart-executor/internal/version.Version={{.Version}}
+      -X github.com/marcusfreisleben/gitlab-tart-executor/internal/version.Commit={{.ShortCommit}}
     env:
       - CGO_ENABLED=0
     goos:
@@ -33,11 +33,11 @@ brews:
     ids:
       - regular
     repository:
-      owner: cirruslabs
-      name: homebrew-cli
+      owner: marcusfreisleben
+      name: homebrew-gitlab-tart-executor
     dependencies:
       - "cirruslabs/cli/tart"
     caveats: See the Github repository for more information
-    homepage: https://github.com/cirruslabs/gitlab-tart-executor
+    homepage: https://github.com/marcusfreisleben/gitlab-tart-executor
     description: GitLab Runner Executor to run jobs inside isolated Tart VMs
     skip_upload: auto
