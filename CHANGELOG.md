@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.3...v1.1.0) (2025-02-21)
+
+
+### Features
+
+* Replace environment variable with --default-image argument ([35213c4](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/35213c43c89d662abc71c7f8cebb4ae90c7caf59))
+
 ## [1.0.3](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.2...v1.0.3) (2025-02-21)
 
 
