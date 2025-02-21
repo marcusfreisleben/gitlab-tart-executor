@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.0...v1.0.1) (2025-02-21)
+
+
+### Bug Fixes
+
+* semantic-release gets stuck on analyzing PR in OG repo ([8e8ec48](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/8e8ec486c1800c4d780a3a419f9fa55cb35e89fa))
+
 # 1.0.0 (2025-02-21)
 
 
