@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.2...v1.0.3) (2025-02-21)
+
+
+### Bug Fixes
+
+* reassignment ([c6ed8df](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/c6ed8df989649556847a3ed40b57aabaaafa05ce))
+
 ## [1.0.2](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.1...v1.0.2) (2025-02-21)
 
 
