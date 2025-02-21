@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.1.0...v1.1.1) (2025-02-21)
+
+
+### Bug Fixes
+
+* dont complain abotu missing image before we had a chance to fall back ([b5d6613](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/b5d6613fa86e11064c6a32cd27664ff029cf1d9f))
+
 # [1.1.0](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.0.3...v1.1.0) (2025-02-21)
 
 
