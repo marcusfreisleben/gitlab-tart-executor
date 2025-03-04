@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.3...v1.2.4) (2025-03-04)
+
+
+### Bug Fixes
+
+* try a separate session, it might not persist ([48ffbfd](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/48ffbfdfa1b4a2c04dbd0e883cc093b298b988eb))
+
 ## [1.2.3](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.2...v1.2.3) (2025-03-04)
 
 
