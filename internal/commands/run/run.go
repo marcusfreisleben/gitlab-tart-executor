@@ -54,6 +54,7 @@ func runScriptInsideVM(cmd *cobra.Command, args []string) error {
 	defer session.Close()
 
 	if config.KeychainUnlock {
+		// This might be too spammy
 		log.Println("Unlocking keychain...")
 
 		keySession, err := ssh.NewSession()
@@ -65,8 +66,6 @@ func runScriptInsideVM(cmd *cobra.Command, args []string) error {
 		if err := keySession.Run(fmt.Sprintf("sudo security unlock-keychain -p \"%s\"", config.SSHPassword)); err != nil {
 			return err
 		}
-
-		log.Println("Keychain was unlocked.")
 	}
 
 	// GitLab script ends with an `exit` command which will terminate the SSH session
