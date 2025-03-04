@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.1...v1.2.2) (2025-03-04)
+
+
+### Bug Fixes
+
+* default KEYCHAIN_UNLOCK to true for testing ([cd30178](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/cd30178a1adb967dd74994f81a9df758f615fef3))
+
 ## [1.2.1](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.0...v1.2.1) (2025-03-04)
 
 
