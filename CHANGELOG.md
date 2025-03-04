@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.4...v1.2.5) (2025-03-04)
+
+
+### Bug Fixes
+
+* reverted default, correct namespace for flag ([b42aa87](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/b42aa8795a681f92fdadbec5c78bbe38a45ac19f))
+
 ## [1.2.4](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.3...v1.2.4) (2025-03-04)
 
 
