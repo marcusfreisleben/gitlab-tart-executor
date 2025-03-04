@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.5...v1.2.6) (2025-03-04)
+
+
+### Bug Fixes
+
+* omit sudo ([d877b8a](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/d877b8a148cde7ee1f0fa2200592d49468fd65d2))
+
 ## [1.2.5](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.4...v1.2.5) (2025-03-04)
 
 
