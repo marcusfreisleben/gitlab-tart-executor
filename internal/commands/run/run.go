@@ -59,6 +59,7 @@ func runScriptInsideVM(cmd *cobra.Command, args []string) error {
 		if err := session.Run(fmt.Sprintf("sudo security unlock-keychain -p \"%s\"", config.SSHPassword)); err != nil {
 			return err
 		}
+		session.Close()
 
 		log.Println("Keychain was unlocked.")
 	}
