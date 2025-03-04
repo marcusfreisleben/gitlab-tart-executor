@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.0...v1.2.1) (2025-03-04)
+
+
+### Bug Fixes
+
+* dependencies ([b7275c0](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/b7275c013a83c8154ae05c467d8deddfa4870183))
+
 # [1.2.0](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.1.2...v1.2.0) (2025-03-04)
 
 
