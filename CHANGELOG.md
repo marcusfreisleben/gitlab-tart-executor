@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.2...v1.2.3) (2025-03-04)
+
+
+### Bug Fixes
+
+* close the session properly ([2150b12](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/2150b12e0990b3713894a6a28bb6a8f3eb428748))
+
 ## [1.2.2](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.2.1...v1.2.2) (2025-03-04)
 
 
