@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.1.2...v1.2.0) (2025-03-04)
+
+
+### Features
+
+* Add KeychainUnlock/TART_KEYCHAIN_UNLOCK option ([6528370](https://github.com/marcusfreisleben/gitlab-tart-executor/commit/65283707874d1363bcb5c17195f098c5bf4fb257))
+
 ## [1.1.2](https://github.com/marcusfreisleben/gitlab-tart-executor/compare/v1.1.1...v1.1.2) (2025-02-21)
 
 
