@@ -1,9 +1,11 @@
 package run
 
 import (
-	"github.com/marcusfreisleben/gitlab-tart-executor/internal/gitlab"
-	"github.com/marcusfreisleben/gitlab-tart-executor/internal/tart"
+	"fmt"
+	"github.com/cirruslabs/gitlab-tart-executor/internal/gitlab"
+	"github.com/cirruslabs/gitlab-tart-executor/internal/tart"
 	"github.com/spf13/cobra"
+	"log"
 	"os"
 )
 
@@ -50,6 +52,16 @@ func runScriptInsideVM(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	defer session.Close()
+
+	if config.KeychainUnlock {
+		log.Println("Unlocking keychain...")
+
+		if err := session.Run(fmt.Sprintf("sudo security unlock-keychain -p \"%s\"", config.SSHPassword)); err != nil {
+			return err
+		}
+
+		log.Println("Keychain was unlocked.")
+	}
 
 	// GitLab script ends with an `exit` command which will terminate the SSH session
 	session.Stdin = scriptFile
